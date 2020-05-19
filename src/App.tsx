@@ -5,8 +5,11 @@ import './App.css';
 class App extends Component {
 
   render() {
-    let firstValue: string = 'Manny';
-
+    // let firstValue: string = 'Manny';
+    // let firstValue: number = 34;
+    // let firstValue: boolean = true;
+    // let firstValue: number[] = [2, 3, 4];
+    let firstValue: Array<string> = ['1','5','Manny'];
 
 
 
