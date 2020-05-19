@@ -5,11 +5,9 @@ import './App.css';
 class App extends Component {
 
   render() {
-    let firstValue: string = 'Manny';
-    // let firstValue: number = 34;
-    // let firstValue: boolean = true;
-    // let firstValue: number[] = [2, 3, 4];
-    // let firstValue: Array<string> = ['1','5','Manny'];
+
+    //tuple
+    let aTuple: [string, number] = ['Manny', 34, 36]
 
 
 
@@ -18,7 +16,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            The value {firstValue} is of {typeof firstValue} type!
+            The value {aTuple[0]} is of {typeof aTuple[0]} type!
         </p>
 
         </header>
