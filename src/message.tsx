@@ -1,14 +1,16 @@
-import React from 'react';
+import React from "react";
 
-const Message = (prop: {message: string}): any => {
-  return(
-  <p> {prop.message}</p>
-  )
+interface UserMessage {
+  name: string;
+  message: string;
 }
 
-// function Message() {
-//     return(
-//     <p> This is a quick message</p>)
-// }
+const Message = (props: UserMessage): any => {
+  return (
+    <p>
+      {props.name}, {props.message}
+    </p>
+  );
+};
 
 export default Message;
